@@ -1,0 +1,96 @@
+const options = [{
+  value: 'ant-1.4',
+  label: 'ant-1.4'
+}, {
+  value: 'ant-1.5',
+  label: 'ant-1.5'
+}, {
+  value: 'ant-1.6',
+  label: 'ant-1.6'
+}, {
+  value: 'ant-1.7',
+  label: 'ant-1.8'
+}, {
+  value: 'camel-1.2',
+  label: 'camel-1.2'
+}, {
+  value: 'camel-1.4',
+  label: 'camel-1.4'
+}, {
+  value: 'camel-1.6',
+  label: 'camel-1.6'
+}, {
+  value: 'ivy-1.4',
+  label: 'ivy-1.4'
+}, {
+  value: 'ivy-2.0',
+  label: 'ivy-2.0'
+}, {
+  value: 'jedit-4.0',
+  label: 'jedit-4.0'
+}, {
+  value: 'jedit-4.1',
+  label: 'jedit-4.1'
+}, {
+  value: 'jedit-4.2',
+  label: 'jedit-4.2'
+}, {
+  value: 'jedit-4.3',
+  label: 'jedit-4.3'
+}, {
+  value: 'log4j-1.1',
+  label: 'log4j-1.1'
+}, {
+  value: 'log4j-1.2',
+  label: 'log4j-1.2'
+}, {
+  value: 'lucene-2.2',
+  label: 'lucene-2.2'
+}, {
+  value: 'lucene-2.4',
+  label: 'lucene-2.4'
+}, {
+  value: 'poi-2.0',
+  label: 'poi-2.0'
+}, {
+  value: 'poi-2.5',
+  label: 'poi-2.5'
+}, {
+  value: 'poi-3.0',
+  label: 'poi-3.0'
+}, {
+  value: 'synapse-1.1',
+  label: 'synapse-1.1'
+}, {
+  value: 'synapse-1.2',
+  label: 'synapse-1.2'
+}, {
+  value: 'velocity-1.5',
+  label: 'velocity-1.5'
+}, {
+  value: 'velocity-1.6',
+  label: 'velocity-1.6'
+}, {
+  value: 'xalan-2.5',
+  label: 'xalan-2.5'
+}, {
+  value: 'xalan-2.6',
+  label: 'xalan-2.6'
+}, {
+  value: 'xalan-2.7',
+  label: 'xalan-2.7'
+}, {
+  value: 'xerces-1.2',
+  label: 'xerces-1.2'
+}, {
+  value: 'xerces-1.3',
+  label: 'xerces-1.3'
+}, {
+  value: 'xerces-1.4',
+  label: 'xerces-1.4'
+}]
+
+const url = 'http://120.48.12.99:8080/examples/all/'
+
+module.exports.opt = options
+module.exports.url = url
